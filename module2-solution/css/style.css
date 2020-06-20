@@ -15,6 +15,9 @@
 
   .row:{
       width:100%;
+      align-items: center;
+      position: relative;
+      display: flex;
   }
 
   .border {
@@ -24,7 +27,6 @@
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding: 2px;
   }
 
   .small-box {
@@ -42,6 +44,20 @@
       position: relative;
       clear: both;
   }
+
+  /*** BACKGROUND COLOR OF SMALL BOX**/
+  .skin{
+      background-color: rgb(243, 230, 157);
+  }
+  .red{
+      background-color: red;
+      color: white;
+  }
+  .lightyellow{
+      background-color: lightyellow;
+  }
+
+
 
   /********** Large devices only **********/
   @media (min-width: 1200px) {
